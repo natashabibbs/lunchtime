@@ -3,7 +3,7 @@
 Are you hungry but can't decide what to eat for lunch? Let's help you out and create a random lunch idea generator.
 
 ## Objective
-Use **Arrays** to store information about possible lunch choices in **Objects**. Use **Math.Random** to randomize a lunch option on click of a button and change the **innerHTML** and image source.
+Use **Arrays** to store **Objects** that will hold information about possible lunch choices. Use **Math.Random** to randomize a lunch option on click of a button and change the **innerHTML** and image source.
 
 ## Prerequisites
 
@@ -38,7 +38,9 @@ In your JS file:
 * adjective
 * verb
 
-Note: Each property value should be in the form of a ```String```. THe imagesrc value can be obtained by right clicking on the image you want from the browser and selecting Copy Image Address.
+What is an object? An object is a collection of values. Objects store lots of data that can be accessed later. Research how an object's syntax! https://www.w3schools.com/js/js_object_definition.asp
+
+Note: Each value should be in the form of a ```String```. THe imagesrc value can be obtained by right clicking on the image you want from the browser and selecting Copy Image Address.
 
 ### Part III
 To complete Part III, fulfill the following requirements:
@@ -50,6 +52,16 @@ In your JS  file:
 * Change the source of the current image to the randomized object's image source.
 * Change the innerHTML of the text area to display a string that has the random object's verb, adjective, and name in one sentence. For example, the string could say something like "Munch crunchy chicken!".
 
+How to create a random number? JavaScript has a random method that can be used! Research the syntax https://www.w3schools.com/jsref/jsref_random.asp. These math methods also can round numbers which may come in handy... Research the JavaScript Math methods!
+
+How do you access an element from an array? https://www.w3schools.com/js/js_arrays.asp
+Remember, the first element in an array has an index number of 0! 
+
 ### Stretch Goals
 1. Make the web application applicable to breakfast lunch and dinner! Create breakfast, lunch, and dinner options that a user can select. Upon selecting this option, the button should return a randomized option for specifically breakfast, lunch, or dinner.
 2. Add a location property to your objects. The location property will hold a string value that states where you could eat this food at (e.g. "KFC!", "McDonalds"...etc.). Display this location in the text's innerHTML when the button is clicked.
+
+### Resources
+https://www.w3schools.com/js/js_object_definition.asp
+https://www.w3schools.com/jsref/jsref_random.asp
+https://www.w3schools.com/js/js_arrays.asp
