@@ -52,7 +52,7 @@ In your JS  file:
 * Change the source of the current image to the randomized object's image source.
 * Change the innerHTML of the text area to display a string that has the random object's verb, adjective, and name in one sentence. For example, the string could say something like "Munch crunchy chicken!".
 
-How to create a random number? JavaScript has a random method that can be used! Research the syntax https://www.w3schools.com/jsref/jsref_random.asp. These math methods also can round numbers which may come in handy... Research the JavaScript Math methods!
+How to create a random number? JavaScript has a random method that can be used! Research the syntax https://www.w3schools.com/jsref/jsref_random.asp. These math methods also can round numbers which may come in handy... Research the JavaScript Math methods! 
 
 How do you access an element from an array? https://www.w3schools.com/js/js_arrays.asp
 Remember, the first element in an array has an index number of 0!

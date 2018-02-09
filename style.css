@@ -1,0 +1,25 @@
+div {
+    font-size: 80px;
+    padding: 10px;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+
+button {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    border-radius: 5px;
+    color: blue;
+}
+
+img {
+ height: 130px;
+ width: 130px;
+}
+
+h1 {
+    text-shadow: 2px 4px 4px blue;
+}
